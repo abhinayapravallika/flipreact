@@ -26,6 +26,24 @@
       "description": " very good for selfie",
       "thumbnail": "https://tse4.mm.bing.net/th?id=OIP.v3P7UBx36uGRZ1k6-sZQYQHaFi&pid=Api&P=0&h=180",
       "id": 5
+    },
+    {
+      "productid": "6789",
+      "productname": "teddy bear",
+      "brand": "teddy",
+      "price": "800",
+      "description": "toy ",
+      "thumbnail": "https://4.imimg.com/data4/PG/UH/MY-10106023/teddy-bear-500x500.jpg",
+      "id": 6
+    },
+    {
+      "productid": "420",
+      "productname": "Basheera",
+      "brand": "pichidhi",
+      "price": "0",
+      "description": "thinks she is beautiful but not ,very mad , idiot, lazy fellow",
+      "thumbnail": "https://i.pinimg.com/originals/eb/49/71/eb49713a1c2e50cb1817e48dd6b7dfe1.jpg",
+      "id": 7
     }
   ]
 }
