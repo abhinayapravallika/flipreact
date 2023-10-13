@@ -1,5 +1,4 @@
 import React from 'react'
-import Users from './Users';
 import Products2 from './Products2';
 import Form from './Form';
 import Logo from './Logo';

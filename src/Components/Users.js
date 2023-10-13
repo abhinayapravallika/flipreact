@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
-import { useContext,useEffect} from 'react'
+import { useEffect} from 'react'
 import axios from 'axios';
-import { store } from '../App'
 export default function Users() {
     let sno=1;
     const[products,setProducts]=useState([{}]);
