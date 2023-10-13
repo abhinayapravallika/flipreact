@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.logo{
+  margin:0;
+  padding:0;
+  background: white !important;
+}
+.search input[type=text]{
+  width:670px;
+  height:45px;
+  border-radius:10px;
+  border: 0px;
+  font-size: 18px;
+  padding-left: 30px;
+  background: #edf3f6;
+}
+.mll{
+  margin: 8px;
+}
+.search{
+display: flex;
+justify-content: center;
+margin-top:5%;
+position: relative;
+}
+.search-container {
+  margin-top:10px;
+  margin-bottom:10px;
+  position: relative;
+  display: inline-block;
+}
+.search-container .fa-magnifying-glass {
+  position: absolute;
+  left: 10px; 
+  top: 50%;
+  transform: translateY(-50%);
+  color: black;
+  font-size: 18px;
+}
+#productsrow{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.bg-white{
+  background-color: white;
+}
+.produtsmainrow{
+ margin-left: 1px;
+ margin-right: 1px;
+}
+body{
+  background:rgb(232, 231, 231) !important;
+}
+.ml{
+  margin-left:3%;
+}
+.vid{
+  margin-left:10px;
+  margin-right:10px;
+}
+ul li{
+  list-style: none;
+  float: left;
+  margin:20px 27px 20px 20px !important; 
+  background-color: white !important;
+  font-size:15px !important;
+}
+#actions1{
+  color: rgb(45, 38, 244) !important;
+  padding: 10px;
+}
+#actions2{
+  color: red;
+  padding:10px;
+}
