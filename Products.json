@@ -10,15 +10,6 @@
       "id": 1
     },
     {
-      "productid": "98666",
-      "productname": "anvitha",
-      "brand": "girl",
-      "price": "4569876",
-      "description": "nice",
-      "thumbnail": "https://4.imimg.com/data4/PG/UH/MY-10106023/teddy-bear-500x500.jpg",
-      "id": 2
-    },
-    {
       "productid": "1345545",
       "productname": "Macbook pro 11",
       "brand": "Macbook",
@@ -26,6 +17,15 @@
       "description": "light weight ,\neasy to use and costly",
       "thumbnail": "https://tse3.mm.bing.net/th?id=OIP.g-e3XMkn5r_4VA4TEuTw9QHaFo&pid=Api&P=0&h=180",
       "id": 4
+    },
+    {
+      "productid": " 356122",
+      "productname": " poco new",
+      "brand": " poco",
+      "price": " 10000",
+      "description": " very good for selfie",
+      "thumbnail": "https://tse4.mm.bing.net/th?id=OIP.v3P7UBx36uGRZ1k6-sZQYQHaFi&pid=Api&P=0&h=180",
+      "id": 5
     }
   ]
 }
