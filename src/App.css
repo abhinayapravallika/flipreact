@@ -89,9 +89,6 @@ position: relative;
 body{
   background:rgb(232, 231, 231) !important;
 }
-.ml{
-  margin-left:3%;
-}
 .vid{
   margin-left:10px;
   margin-right:10px;
@@ -110,4 +107,13 @@ ul li{
 #actions2{
   color: red;
   padding:10px;
+}
+.form{
+  border-radius:15px;
+  border:black 1px solid !important;
+  background-Color:rgb(122, 122, 185);
+}
+.inp{
+  border:rgb(255, 0, 0) 1px solid !important;
+  background-color:rgb(252, 213, 219) !important;
 }

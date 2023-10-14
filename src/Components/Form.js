@@ -78,34 +78,34 @@ export default function Form() {
    <>
            <div className="container-fluid">
             <div className="row justify-content-center">
-                <div className="col-md-6" style={{backgroundColor:"#D988B9"}}>
+                <div className="col-md-6 form">
                     <form method="post" onSubmit={handleSubmit}>
-                    <h2 className="text-center">Add Products</h2><hr></hr>
+                    <h2 className="text-center mt-2">Add Products</h2><hr></hr>
                     <div className="mb-3">
-                        <label>Product Id:</label>
-                        <input type="text" name="" class="form-control"  placeholder="enter id" value={id} onChange={(e)=>{setId(e.target.value)}}/>
+                        <label><b>Product Id:</b></label>
+                        <input type="text" name="" class="form-control inp"  placeholder="enter id" value={id} onChange={(e)=>{setId(e.target.value)}}/>
                     </div>
                     <div className="mb-3">
-                        <label>ProductName:</label>
-                        <input type="text" name="" class="form-control" placeholder="enter name" value={name} onChange={(e)=>{setName(e.target.value)}}/>
+                        <label><b>ProductName:</b></label>
+                        <input type="text" name="" class="form-control inp" placeholder="enter name" value={name} onChange={(e)=>{setName(e.target.value)}}/>
                     </div>
                     <div className="mb-3">
-                        <label>Brand</label>
-                        <input type="text" name="" class="form-control" placeholder="enter brand" value={brand} onChange={(e)=>{setBrand(e.target.value)}}/>
+                        <label><b>Brand:</b></label>
+                        <input type="text" name="" class="form-control inp" placeholder="enter brand" value={brand} onChange={(e)=>{setBrand(e.target.value)}}/>
                     </div>
                     <div className="mb-3">
-                        <label>Price</label>
-                        <input type="text" name="" class="form-control" placeholder="enter price" value={price} onChange={(e)=>{setPrice(e.target.value)}}/>
+                        <label><b>Price:</b></label>
+                        <input type="text" name="" class="form-control inp" placeholder="enter price" value={price} onChange={(e)=>{setPrice(e.target.value)}}/>
                     </div>
                     <div className="mb-3">
-                        <label>Description</label>
-                        <textarea type="text" name="" class="form-control" style={{paddingBottom:"50px"}} value={des} onChange={(e)=>{setDes(e.target.value)}}/>
+                        <label><b>Description:</b></label>
+                        <textarea type="text" name="" class="form-control inp" style={{paddingBottom:"50px"}} value={des} onChange={(e)=>{setDes(e.target.value)}}/>
                     </div>
                     <div className="mb-3">
-                        <label>Image</label>
-                        <input type="text" name="" class="form-control" placeholder="image url" value={img} onChange={(e)=>{setImg(e.target.value)}}/>
+                        <label><b>Image-Url:</b></label>
+                        <input type="text" name="" class="form-control inp" placeholder="image url" value={img} onChange={(e)=>{setImg(e.target.value)}}/>
                     </div>
-                    <button className="btn btn-success mb-3">submit</button>
+                    <button className="btn btn-danger mb-3">submit</button>
                 </form>
             </div>
         </div>
