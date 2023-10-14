@@ -53,6 +53,15 @@
       "description": "stylish and trendy earrings",
       "thumbnail": " https://assets.ajio.com/medias/sys_master/root/20210824/LsFA/6123f919aeb269a2687ab1ff/-473Wx593H-6005528760-multi-MODEL3.jpg",
       "id": 8
+    },
+    {
+      "productid": " 876543",
+      "productname": " watch & brace",
+      "brand": "........",
+      "price": " 4567",
+      "description": " stylish",
+      "thumbnail": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDkiwjptosy4u7J7zDw5-KhAk1SZGnQ4EI4w&usqp=CAU",
+      "id": 9
     }
   ]
 }
